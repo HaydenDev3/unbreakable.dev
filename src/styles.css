@@ -5,11 +5,11 @@
 
 footer {
     position: fixed;
+    float: right;
+    color: #FFFFFF;
     bottom: 0;
     width: 100%;
     padding: 5px;
-    float: right;
-    color: #FFFFFF;
 }
   
 footer p {
