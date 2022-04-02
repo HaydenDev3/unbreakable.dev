@@ -2,13 +2,6 @@
   command="ng build"
   publish="dist/angular-quickstart"
 
-[[plugins]]
-package = "netlify-build-plugin-pushover"
-
-  [plugins.inputs]
-    successMessage = "" #Optional
-    errorMessage = "" #Optional
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
