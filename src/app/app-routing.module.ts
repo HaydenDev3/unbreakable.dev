@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { ProjectsComponent } from "./projects/projects.component";
 import { HomeComponent } from "./home/home.component";
+import { NotFoundComponent } from "./not-found/not-found.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
   // Project Page.
-  { path: "projects", component: ProjectsComponent } // <domain>/projects
+  { path: "projects", component: ProjectsComponent }, // <domain>/projects
+  { path: "**", component: NotFoundComponent }
 ];
 
 @NgModule({

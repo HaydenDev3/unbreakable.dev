@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
+import { SpinnerComponent } from './utils/spinner/spinner.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    SpinnerComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
