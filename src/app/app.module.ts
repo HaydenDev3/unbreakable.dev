@@ -9,6 +9,7 @@ import { NavbarComponent } from './core/navbar/navbar.component';
 import { SpinnerComponent } from './utils/spinner/spinner.component';
 import { WavesComponent } from './utils/waves/waves.component';
 import { DocsComponent } from './docs/docs.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DocsComponent } from './docs/docs.component';
     NavbarComponent,
     SpinnerComponent,
     WavesComponent,
-    DocsComponent
+    DocsComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
