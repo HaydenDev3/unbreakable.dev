@@ -7,7 +7,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './core/navbar/navbar.component';
 import { SpinnerComponent } from './utils/spinner/spinner.component';
-import { NotFoundComponent } from './not-found/not-found.component';
+import { WavesComponent } from './utils/waves/waves.component';
+import { DocsComponent } from './docs/docs.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HomeComponent,
     NavbarComponent,
     SpinnerComponent,
-    NotFoundComponent
+    WavesComponent,
+    DocsComponent
   ],
   imports: [
     BrowserModule,
@@ -25,4 +27,5 @@ import { NotFoundComponent } from './not-found/not-found.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
