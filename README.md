@@ -1,3 +1,12 @@
-# Unbreakable.tk
+# Official Portfolio For Unbreakablenight
 
-Made with love, and coded with angular/html/css  and bootstrap + tailwind.
+> This is an official coded Portfolio was built by Unbreakablenight#0001.
+
+## Coded With Love.
+
+> This portfolio is created with Typescript, and Angular, and the most important thing, LOVE!
+
+## **License & Copyright**
+
+©️ Unbreakablenight, @ Planet Victic | Discord Community.
+🔗 https://discord.gg/KAmYHuQpuG
