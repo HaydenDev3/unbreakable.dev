@@ -10,3 +10,5 @@
 
 ©️ Unbreakablenight, @ Planet Victic | Discord Community.
 🔗 https://discord.gg/KAmYHuQpuG
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cb5dc4c1-45ad-4be9-91d1-1c28aff920de/deploy-status)](https://app.netlify.com/sites/unbreakablenight/deploys)
