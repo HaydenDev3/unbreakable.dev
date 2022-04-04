@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: "docs", component: DocsComponent }, // <domain>/docs
   { path: "contactme", component: ContactUsComponent }, // <domain>/contactus
   { path: "team", component: TeamComponent }, // <domain>/team
-  { path: "discord-nitro", component: RedirectComponent1 },
+  { path: "giveaways", component: RedirectComponent1 },
   { path: "**", component: NotFoundComponent },
 ];
 
