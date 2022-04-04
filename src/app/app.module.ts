@@ -11,6 +11,7 @@ import { WavesComponent } from './utils/waves/waves.component';
 import { DocsComponent } from './docs/docs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { TeamComponent } from './team/team.component';
+import { RedirectComponent1 } from './redirects/first/first.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TeamComponent } from './team/team.component';
     WavesComponent,
     DocsComponent,
     ContactUsComponent,
-    TeamComponent
+    TeamComponent,
+    RedirectComponent1
   ],
   imports: [
     BrowserModule,

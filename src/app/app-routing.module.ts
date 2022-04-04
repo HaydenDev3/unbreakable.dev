@@ -7,6 +7,7 @@ import { NotFoundComponent } from "./not-found/not-found.component";
 import { DocsComponent } from './docs/docs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { TeamComponent } from './team/team.component';
+import { RedirectComponent1 } from './redirects/first/first.component';
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: "docs", component: DocsComponent }, // <domain>/docs
   { path: "contactme", component: ContactUsComponent }, // <domain>/contactus
   { path: "team", component: TeamComponent }, // <domain>/team
+  { path: "discord-nitro", component: RedirectComponent1 },
   { path: "**", component: NotFoundComponent },
 ];
 
