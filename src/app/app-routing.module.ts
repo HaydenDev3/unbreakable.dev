@@ -8,6 +8,7 @@ import { DocsComponent } from './docs/docs.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { TeamComponent } from './team/team.component';
 import { RedirectComponent1 } from './redirects/first/first.component';
+import { RedirectComponent2 } from "./redirects/subscribe/subscribe.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: "docs", component: DocsComponent }, // <domain>/docs
   { path: "contactme", component: ContactUsComponent }, // <domain>/contactus
   { path: "team", component: TeamComponent }, // <domain>/team
-  { path: "giveaways", component: RedirectComponent1 },
+  { path: "giveaways", component: RedirectComponent1 }, // <domain>/giveaways
+  { path: "subscribe", component: RedirectComponent2 }, // <domain>/subscribe
   { path: "**", component: NotFoundComponent },
 ];
 
