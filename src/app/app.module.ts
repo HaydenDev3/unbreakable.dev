@@ -14,6 +14,8 @@ import { TeamComponent } from './team/team.component';
 import { RedirectComponent1 } from './redirects/first/first.component';
 import { RedirectComponent2 } from './redirects/subscribe/subscribe.component';
 
+import { HttpClientModule } from "@angular/common/http";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +33,7 @@ import { RedirectComponent2 } from './redirects/subscribe/subscribe.component';
   imports: [
     BrowserModule,
     AppRoutingModule, // Importing from App-routing.module.ts
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
