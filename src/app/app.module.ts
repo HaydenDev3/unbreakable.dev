@@ -13,6 +13,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { TeamComponent } from './team/team.component';
 import { RedirectComponent1 } from './redirects/first/first.component';
 import { RedirectComponent2 } from './redirects/subscribe/subscribe.component';
+import { DesignsComponent } from "./designs-page/designs-page.component";
 
 import { HttpClientModule } from "@angular/common/http";
 
@@ -28,7 +29,8 @@ import { HttpClientModule } from "@angular/common/http";
     ContactUsComponent,
     TeamComponent,
     RedirectComponent1,
-    RedirectComponent2
+    RedirectComponent2,
+    DesignsComponent
   ],
   imports: [
     BrowserModule,

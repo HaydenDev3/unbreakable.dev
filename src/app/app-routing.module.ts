@@ -9,6 +9,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { TeamComponent } from './team/team.component';
 import { RedirectComponent1 } from './redirects/first/first.component';
 import { RedirectComponent2 } from "./redirects/subscribe/subscribe.component";
+import { DesignsComponent } from "./designs-page/designs-page.component";
 
 const routes: Routes = [
   { path: "", component: HomeComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: "team", component: TeamComponent }, // <domain>/team
   { path: "giveaways", component: RedirectComponent1 }, // <domain>/giveaways
   { path: "subscribe", component: RedirectComponent2 }, // <domain>/subscribe
+  { path: "designs", component: DesignsComponent }, // <domain>/designs
   { path: "**", component: NotFoundComponent },
 ];
 
