@@ -1,0 +1,42 @@
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #5663F7;
+  position: relative;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+}
+
+em {
+  font-style: italic;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+kbd {
+  padding: 0.2rem 0.4rem;
+  font-size: .875em;
+  color: #fff;
+  background-color: #212529;
+  border-radius: 0.2rem;
+}
